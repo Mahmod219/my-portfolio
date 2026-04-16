@@ -35,6 +35,14 @@ export const metadata = {
     siteName: "Mahmod Portfolio",
     locale: "sv_SE",
     type: "website",
+    images: [
+      {
+        url: "/my_Image.png",
+        width: 1200,
+        height: 630,
+        alt: "Mahmod Portfolio",
+      },
+    ],
   },
   icons: {
     icon: "/favicon.ico", // تأكد من وجود أيقونة صغيرة في مجلد public
