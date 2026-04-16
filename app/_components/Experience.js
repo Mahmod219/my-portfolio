@@ -1,5 +1,3 @@
-import { BriefcaseIcon, AcademicCapIcon } from "@heroicons/react/24/outline";
-
 const experiences = [
   {
     company: "Självlärd Utvecklare (Fullstack)",
