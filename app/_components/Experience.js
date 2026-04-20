@@ -1,10 +1,11 @@
 const experiences = [
   {
-    company: "Självlärd Utvecklare (Fullstack)",
+    company: "SOFTWAREUTVECKLARE (FULLSTACK) ",
     role: "Projekt & Kompetensutveckling",
     period: "2023 - PÅGÅENDE",
     description:
-      "Intensivt fokus på moderna ramverk, webbdesign och fullstack-utveckling. Bygger skalbara webblösningar och fördjupar kunskaper inom Next.js, React och Supabase dagligen.",
+      "AI-driven Rekryteringsplattform: Utvecklade en skalbarapplikation i Next.js 15 och Supabase med fokus påautomatiserad matchning.AI & Search: Implementerade Vector Embeddings ochSemantic Search för högprecisionsanalys av PDF-dataBackend & Säkerhet: Arkitekterade databasen iPostgreSQL med avancerad RBAC (Role-Based Access Control) Prestanda: Optimerade användarupplevelsen (UX) genom Server Components och Streaming för minimal laddtid Cloud Integration: Hanterade molnbaserad lagring och realtidsnotiser för stora dokumentflöden.",
+
     isHighlight: true,
   },
   {

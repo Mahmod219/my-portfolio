@@ -28,29 +28,38 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-500 font-medium max-w-xl leading-relaxed">
-              Innovativ {""}
+              Driven och lösningsorienterad{" "}
               <span className="text-black font-bold">
-                Frontend/Fullstack-utvecklare
+                Fullstack-utvecklare{" "}
               </span>{" "}
-              specialiserad på att bygga sömlösa användarupplevelser. Genom att
-              kombinera modern frontend-teknik med robusta backend-strukturer
-              levererar jag webblösningar som är både estetiskt tilltalande och
-              tekniskt överlägsna.
+              med expertis inom modern webbutveckling. Jag har en bevisad
+              förmåga att bygga komplexa applikationer från grunden, med
+              särskilt fokus på Next.js 15, TypeScript och AI-drivna funktioner.
+              Mitt senaste projekt, en avancerad rekryteringsplattform,
+              demonstrerar min skicklighet i att integrera Vector Embeddings och
+              Semantic Search för att lösa verkliga affärsproblem. Jag brinner
+              för Clean Code, hög prestanda och att skapa intuitiva
+              användarupplevelser som levererar faktiskt affärsvärde.
             </p>
           </div>
 
           {/* الكلمات المفتاحية من السيفي */}
           <div className="flex flex-wrap gap-2">
             {[
+              "JavaScript (ES6+)",
+              "TypeScript",
               "Next.js",
               "React",
               "Supabase",
+              "PostgreSQL",
+              "Vector Databases (pgvector)",
+              "RESTful APIs RBAC (Role-Based Access Control)",
+              "AI Integration",
+              "Embeddings",
+              "Semantic Search",
               "Tailwind CSS",
               "StyledComponents CSS",
               "Bootstrap CSS",
-              "JavaScript (ES6+)",
-              "TypeScript",
-              "PostgreSQL",
               "Git/Github",
             ].map((skill) => (
               <span
