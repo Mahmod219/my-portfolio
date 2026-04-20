@@ -24,7 +24,7 @@ const myProjects = [
       "PostgreSQL",
     ],
     github: "https://github.com/Mahmod219/Rekreyta",
-    link: "https://github.com/Mahmod219/Rekreyta",
+    link: "https://rekreyta.vercel.app/",
   },
   {
     title: "The Wild Oasis Website",
