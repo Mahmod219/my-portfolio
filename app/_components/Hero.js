@@ -28,39 +28,39 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-500 font-medium max-w-xl leading-relaxed">
-              Driven och lösningsorienterad{" "}
+              Driven{" "}
               <span className="text-black font-bold">
                 Fullstack-utvecklare{" "}
               </span>{" "}
-              med expertis inom modern webbutveckling. Jag har en bevisad
-              förmåga att bygga komplexa applikationer från grunden, med
-              särskilt fokus på Next.js 15, TypeScript och AI-drivna funktioner.
-              Mitt senaste projekt, en avancerad rekryteringsplattform,
-              demonstrerar min skicklighet i att integrera Vector Embeddings och
-              Semantic Search för att lösa verkliga affärsproblem. Jag brinner
-              för Clean Code, hög prestanda och att skapa intuitiva
-              användarupplevelser som levererar faktiskt affärsvärde.
+              med expertis inom Next.js 15, TypeScript och Generative AI. Jag har en bevisad förmåga att bygga skalbara applikationer, senast en avancerad rekryteringsplattform med Semantic Search och Vector Embeddings. Med fördjupad kunskap inom LLM-livscykeln, fine-tuning och RLHF, fokuserar jag på att integrera intelligenta funktioner som skapar verkligt affärsvärde genom Clean Code och hög prestanda.
             </p>
           </div>
 
           {/* الكلمات المفتاحية من السيفي */}
           <div className="flex flex-wrap gap-2">
             {[
-              "JavaScript (ES6+)",
               "TypeScript",
-              "Next.js",
-              "React",
+              "JavaScript (ES6+)",
+              "SQL (PostgreSQL)",
+              "Next.js 15",
+              "React 19",
+              "Tailwind CSS",
+              "Styled Components",
+              "Bootstrap",
+              "Node.js",
               "Supabase",
               "PostgreSQL",
               "Vector Databases (pgvector)",
-              "RESTful APIs RBAC (Role-Based Access Control)",
-              "AI Integration",
+              "Generative AI (LLMs)",
+              "RAG",
+              "Vector",
               "Embeddings",
               "Semantic Search",
-              "Tailwind CSS",
-              "StyledComponents CSS",
-              "Bootstrap CSS",
-              "Git/Github",
+              "AI Integration (OpenAI/Hugging Face)",
+              "RESTful APIs",
+              "RBAC (Role-Based Access Control)",
+              "Git/GitHub",
+              "Vercel",
             ].map((skill) => (
               <span
                 key={skill}
