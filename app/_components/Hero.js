@@ -32,35 +32,59 @@ export default function Hero() {
               <span className="text-black font-bold">
                 Fullstack-utvecklare{" "}
               </span>{" "}
-              med expertis inom Next.js 15, TypeScript och Generative AI. Jag har en bevisad förmåga att bygga skalbara applikationer, senast en avancerad rekryteringsplattform med Semantic Search och Vector Embeddings. Med fördjupad kunskap inom LLM-livscykeln, fine-tuning och RLHF, fokuserar jag på att integrera intelligenta funktioner som skapar verkligt affärsvärde genom Clean Code och hög prestanda.
+              och certifierad Microsoft Full-Stack Developer med expertis inom
+              .NET/C#, Next.js 15 och Generative AI. Jag har en bevisad förmåga
+              att arkitektera och bygga skalbara applikationer från grunden –
+              från robusta backend-API:er till intelligenta SaaS-lösningar
+              utrustade med Semantic Search och Vector Embeddings. Med fördjupad
+              kunskap inom LLM-livscykeln, fine-tuning och RLHF, kombinerar jag
+              kraften i modern AI med Clean Code, hög prestanda och säker
+              arkitektur för att leverera genuint affärsvärde.
             </p>
           </div>
 
           {/* الكلمات المفتاحية من السيفي */}
           <div className="flex flex-wrap gap-2">
             {[
-              "TypeScript",
-              "JavaScript (ES6+)",
-              "SQL (PostgreSQL)",
+              // Backend & Architecture
+              ".NET 10",
+              "C#",
+              "ASP.NET Core Web API",
+              "Entity Framework Core (EF Core)",
+              "RESTful APIs",
+              "Node.js",
+
+              // Frontend Development
               "Next.js 15",
               "React 19",
+              "Blazor WebAssembly",
+              "TypeScript",
+              "JavaScript (ES6+)",
               "Tailwind CSS",
               "Styled Components",
               "Bootstrap",
-              "Node.js",
-              "Supabase",
+
+              // Databases & Storage
+              "SQL Server",
               "PostgreSQL",
+              "Supabase",
+              "SQLite",
               "Vector Databases (pgvector)",
+
+              // AI & Advanced Tech
               "Generative AI (LLMs)",
-              "RAG",
-              "Vector",
-              "Embeddings",
+              "RAG & Vector Embeddings",
               "Semantic Search",
-              "AI Integration (OpenAI/Hugging Face)",
-              "RESTful APIs",
+              "AI Integration (OpenAI/AWS)",
+
+              // Security, Cloud & Tools
               "RBAC (Role-Based Access Control)",
+              "JWT Authentication",
+              "Docker",
+              "Microsoft Azure",
               "Git/GitHub",
               "Vercel",
+              "In-Memory Caching",
             ].map((skill) => (
               <span
                 key={skill}
